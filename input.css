@@ -1,0 +1,9 @@
+.styled-input{
+    width:300px;
+    padding:8px 12px;
+    border:1px solid #ccc;
+    margin: 5px;
+}
+div{
+    margin-bottom: 15px;
+}
