@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    p{
+      display:inline-block;
+      width:200px;
+      background-color: yellow;
+    }
+    .parent{
+      position:relative;
+      width:300px;
+      height:200px;
+      background-color: green;
+    }
+    .child{
+      position:absolute;
+      height: 50px;
+      width:50px;
+      top:50px;
+      left:50px;
+      background-color: white;
+      
+    }
+    #fixed-button{
+      position:fixed;
+      bottom:20px;
+      right:20px;
+    }
+    .one{
+      z-index: 0;
+    }
+    div link-group
+    {
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
+  
+  <body>
+    <div id="one">
+      <p class="parent">Hello</p>
+      <p class="child">hai</p>
+    </div>
+    <div id="fixed-button">
+      <p>HAVE A GOOD DAY</p>
+    </div>
+    <div id="link-group">
+      <a href="HOME">HOME</a>
+      <a href="ABOUT">ABOUT</a>
+      <a href="CONTACT US">CONTACT US</a>
+    </div>
+</body>
+</html>
